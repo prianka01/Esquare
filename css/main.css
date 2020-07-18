@@ -1638,9 +1638,10 @@ ul#nav li.current a:after {
  * ------------------------------------------------------------------- */
 #home {
 	width: 100%;
-	height: 100%;
+	/* height: 100%; */
 	background-color: black;
-	padding-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	/* background-image: url(../images/back.gif); */
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1648,7 +1649,7 @@ ul#nav li.current a:after {
 	-moz-background-size: cover;
 	background-size: 100% 100%;
 	background-attachment: fixed;
-	min-height: 804px;
+	/* min-height: 804px; */
 	position: relative;
 }
 
@@ -1863,7 +1864,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 }
 @media only screen and (max-width: 600px) {
 	#home {
-		min-height: 400px;
+		max-height: 400px;
 	}
 
 	.home-content-tablecell .row {
@@ -3173,10 +3174,11 @@ element.style {
 }
 
 .slider-wrapper {
-	width: 100%;
-	max-width: 1064px;
+	/* width: 100%; */
+	/* max-width: 1064px; */
 	margin: 40px auto 0 auto;
 	overflow: hidden;
+	text-align: center;
 }
 
 #speaker-slider,
